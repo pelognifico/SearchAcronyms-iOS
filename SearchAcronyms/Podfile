@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SearchAcronyms' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SearchAcronyms
+
+  pod 'Alamofire', '~> 5.2'
+
+  target 'SearchAcronymsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SearchAcronymsUITests' do
+    # Pods for testing
+  end
+
+end
